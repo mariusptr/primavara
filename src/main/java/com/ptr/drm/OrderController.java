@@ -27,8 +27,8 @@ public class OrderController {
             return "orderForm";
         }
 
-        log.info("Order submi" + order);
-        return "redirect:/";
+        log.info("Order submitted" + order);
+        return "redirect:/homeSuccesOrder";
     }
 
 }
